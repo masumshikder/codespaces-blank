@@ -1,0 +1,9 @@
+<?php
+// Update functions.php to include AJAX handlers
+// Add this line after the other require statements
+
+require_once AJKER_KHOBOR_DIR . '/inc/ajax-handlers.php';
+
+// Add custom menu walker to functions.php
+require_once AJKER_KHOBOR_DIR . '/inc/menu-walker.php';
+?>
